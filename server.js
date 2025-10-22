@@ -78,7 +78,7 @@ app.put('/api/users/:id', async (req, res) => {
   }
 });
 
-// ИСПРАВЛЕННЫЙ DELETE метод
+// Delete User
 app.delete('/api/users/:id', async (req, res) => {
   try {
     console.log('DELETE request for user ID:', req.params.id); // Логируем запрос
